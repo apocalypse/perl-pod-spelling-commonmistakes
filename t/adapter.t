@@ -23,7 +23,7 @@ $o = Pod::Spelling->new(
 	'allow_words' => 'abandonning'
 );
 
-@r = $o->check_file( 't/good.pod' );
+@r = $o->check_file( 't/test.pod' );
 is(  @r, 0, 'No errors for allow_words/STRING');
 
 done_testing();
