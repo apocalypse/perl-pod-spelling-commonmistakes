@@ -40,4 +40,7 @@ sub _spell_check_callback {
 
 Adaptor for L<Pod::Spelling> as a backend checker.
 
+=head1 SEE ALSO
+Pod::Spell::CommonMistakes
+
 =cut
